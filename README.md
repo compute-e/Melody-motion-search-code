@@ -1,2 +1,2 @@
-# relative-melody-motion-search
-A notation code to search for any piece of music using the motion of its melody notes.
+# Relative melody motion search
+My notation code to search for a piece of music using the motion of notes in its melody.
