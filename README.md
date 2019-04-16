@@ -1,14 +1,18 @@
-# Melody motion search code
+# Mel\[\*] search code
+\* shortened to that from "Melody motion"
+
 My notation code to search for a piece of music using the motion of notes in its melody.
 
-## New users introduction *(to Github and its v.c. system)*
+## New users introduction *(to Github and its v.c.system)*
+\[updated in April 2019]
 
-New users, it's simple to get started - you can:
+New users, it's simple to get started - you could:
  - edit a file in this repository - click the edit button and change  
  some code in the Github text editor or paste a new version there
  - upload file(s) or create a new one, using the editor
  - give suggestions or help with fixing bugs in  
- the Issues area (a tab at the top of this page).
+ the Issues area (a tab at the top of this page)
+ - read all of this section.
 
 If you haven't been given [collaborator](https://help.github.com/articles/permission-levels-for-a-user-account-repository/)
 access, you need to  
