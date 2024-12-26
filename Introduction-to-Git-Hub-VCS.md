@@ -1,12 +1,4 @@
-# Mel\[\*] search code
-\* shortened to that from "Melody motion"
-
-My notation code to search for a piece of music using the motion of notes in its melody.
-
- - Do v1.
- - 2018: @Magnogen and I think this \[search code] is going to be good.
-
-## New users introduction *(to GitHub and its v.c.system)*
+# New users introduction *(to GitHub and its v.c.system)*
 <https://docs.github.com/>
 
 \[updated in April 2019]
