@@ -1,5 +1,6 @@
-# Ideas, history (of them)
-Ideas - about some things that could be changed in this repository.
+# 2018 Ideas - history (of them)
+
+... about some things that could be changed in this repository.
 
 Sub-headings of ideas have `vN,#M` at the start:  
  \- "N" is version number of the code that the section is about  
