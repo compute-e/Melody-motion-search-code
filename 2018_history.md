@@ -11,15 +11,18 @@ are a part of a milestone, next to that number:
 
 
 ## v1.0,#1 The original "interesting idea I thought up"
- \- to add as a personal project on GitHub (a few HTML/markdown files), with these options,  
+ \- as a personal project on GitHub (a few HTML/markdown files), with these options,  
 a similar structure and formatting as below, monospace font for text-based diagrams:
 
 I've thought up a music melody search pattern/format idea, based on [Parsons Code](https://en.wikipedia.org/wiki/Parsons_code)  
-but including how wide each gap between notes is estimated to be and using positions  
-relative to the first note (with a symbol to change this when a new phrase starts).
+but including how wide each gap between notes is estimated to be  
+and using positions relative to the first note  
+(with a symbol to change this when a new phrase starts).
 
-This new notation detail should make search results for a piece more accurate. A similar  
-method to mine is the "Numeric scale" used by some choirs but it uses key scale notes.
+This new notation detail should make search results for a piece more accurate.
+
+A similar method to mine is the "Numeric scale" used by some choirs but it uses key scale notes.
+
 ```
     *                        0.2)             *
   /   \                      0.1)          *
@@ -29,6 +32,7 @@ method to mine is the "Numeric scale" used by some choirs but it uses key scale 
 *uddurr                    daah daah do   de    di    da   duh    doo duh deh de duh di
                             @0,  0,  0.1, 0.2, 0.3, -0.1, -0.3,  -0.56@0 , ...
 ```
+
 Parsons Code for melodic contours:  
 start at unknown note ("*"), each note following  
 has a higher/lower/the same (repeated) pitch which is represented as "u" / "d" / "r"  
