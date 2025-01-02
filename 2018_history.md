@@ -14,7 +14,7 @@ are a part of a milestone, next to that number:
  \- to add as a personal project on GitHub (a few HTML/markdown files), with these options,  
 a similar structure and formatting as below, monospace font for text-based diagrams:
 
-I've thought up a music melody search pattern/format idea, based on Parsons Code  
+I've thought up a music melody search pattern/format idea, based on [Parsons Code](https://en.wikipedia.org/wiki/Parsons_code)  
 but including how wide each gap between notes is estimated to be and using positions  
 relative to the first note (with a symbol to change this when a new phrase starts).
 
@@ -29,15 +29,17 @@ method to mine is the "Numeric scale" used by some choirs but it uses key scale 
 *uddurr                    daah daah do   de    di    da   duh    doo duh deh de duh di
                             @0,  0,  0.1, 0.2, 0.3, -0.1, -0.3,  -0.56@0 , ...
 ```
-Parsons Code for melodic contours: start at unknown note ("*"), each note following  
+Parsons Code for melodic contours:  
+start at unknown note ("*"), each note following  
 has a higher/lower/the same (repeated) pitch which is represented as "u" / "d" / "r"  
 to show the relationship of its pitch to the previous note.  
 This simple notation system, used to identify a piece of music by melodic motion (pitch movements),  
 was developed by Denys Parsons in 1975 for his book "The Directory of Tunes and Musical Themes".
 
-Relative Melodic Motion Code (experimental idea): the code contains sections marking phrases  
+Relative Melodic Motion Code (experimental idea):  
+contains sections marking phrases  
 of music where notes are near to a starting pitch. Each section starts with an unknown position setting  
-note (@0) then is followed by a series of relative note values (positive or negative decimals separated  
+note ("@0") then is followed by a series of relative note values (positive or negative decimals separated  
 by commas) and ends with a special relative note value joined to the position note of the next section.
 
 ### Relative note values:
@@ -60,13 +62,14 @@ It is joined to this next starting note without a comma separating them.
 Before this idea, I wrote a note that the code  
 needed a new fixed scale for gaps between notes:
 
-![dsc_0023b_kindlephoto-66970552 - image of the note](https://user-images.githubusercontent.com/13541254/39725643-73f22cba-5244-11e8-9d66-773bc954dd04.jpg)  
+> My idea needs a fixed scale, not custom (size can be scaled on a graph) - half numbers for semitones, searches check ± 0.5?
 
 Then I thought of a "new way" to do that: small, medium or large gaps up/down.  
 These sizes aren't fixed, relative to each other, more info in this notes photo:
 
 ![dsc_0024](https://user-images.githubusercontent.com/13541254/48857274-6176c200-edb0-11e8-8e23-145a35c4e57a.JPG)
 
-\* in readme file, link to this issue as something like "for version 1 ideas/history, go to this page"  
-\* a markdown file linked to from the readme with details of each part of the code - example  
+To-do ideas:  
+ * in READ-ME file, link to this issue as something like "for version 1 ideas/history, go to this page"  
+ * a markdown file linked to from the readme with details of each part of the code - example  
 at the top showing the structure then sections with headings for a description of each part.
